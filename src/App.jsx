@@ -12,7 +12,7 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col bg-[#0b1120] text-white">
+    <div className="min-h-screen flex flex-col bg-[#02060f] text-white">
 
       <Navbar />
 

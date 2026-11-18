@@ -10,12 +10,12 @@ function Home() {
 
         <div className="animate-fade">
 
-          <p className="text-yellow-400 tracking-widest mb-5">
+          <p className="text-gray-500 tracking-widest mb-5 font-italic">
             HELLO, WELCOME TO MY PORTFOLIO
           </p>
 
-          <h1 className="text-5xl md:text-6xl font-bold leading-tight">
-            Hi, I'm <span className="text-yellow-400">Dinky</span>
+          <h1 className="text-4xl md:text-4xl font-italic leading-tight">
+            Hi, I'm <span className="text-gray-400">Dinky</span>
           </h1>
 
           <h2 className="text-2xl mt-5 text-gray-300">
@@ -32,14 +32,14 @@ function Home() {
 
             <Link
               to="/projects"
-              className="bg-yellow-400 text-black px-7 py-3 rounded-lg font-semibold hover:bg-yellow-300 hover:-translate-y-1 transition"
+              className="bg-gray-400 text-black px-7 py-3 rounded-lg font-semibold hover:bg-blue-00 hover:-translate-y-1 transition"
             >
               My Projects
             </Link>
 
             <Link
               to="/contact"
-              className="border border-yellow-400 text-yellow-400 px-7 py-3 rounded-lg hover:bg-yellow-400 hover:text-black transition"
+              className="border border-gray-400 text-gray-400 px-7 py-3 rounded-lg hover:bg-blue-400 hover:text-black transition"
             >
               Contact Me
             </Link>
@@ -57,11 +57,9 @@ function Home() {
 
         <div className="flex justify-center">
 
-          <div className="rounded-full border-4 border-yellow-400 p-2 shadow-xl shadow-yellow-400/20 hover:scale-105 transition duration-500">
+          <div className="rounded-full border-4 border-black-50 p-2 shadow-xl shadow-yellow-400/20 hover:scale-105 transition duration-500">
 
-            <img
-              src={hero}
-              alt="Dinky portfolio"
+            <img src="./dinky.jpeg"alt="Dinky portfolio"
               className="w-72 h-72 md:w-96 md:h-96 rounded-full object-cover"
             />
 

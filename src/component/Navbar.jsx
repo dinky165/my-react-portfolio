@@ -36,8 +36,8 @@ function Navbar() {
               end={item[1] === "/"}
               onClick={() => setMenu(false)}
               className={({ isActive }) =>
-                `hover:text-yellow-400 transition ${
-                  isActive ? "text-yellow-400" : "text-gray-300"
+                `hover:text-blue-00 transition ${
+                  isActive ? "text-gray-400" : "text-gray-300"
                 }`
               }
             >

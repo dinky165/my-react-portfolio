@@ -3,15 +3,15 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer className="bg-[#080d19] border-t border-gray-800">
+    <footer className="bg-[#020b1c] border-t border-gray-800">
 
       <div className="max-w-6xl mx-auto px-6 py-12">
 
         <div className="grid md:grid-cols-3 gap-10">
 
           <div>
-            <h1 className="text-3xl font-bold">
-              DINKY<span className="text-yellow-400">.</span>
+            <h1 className="text-3xl font-italic">
+              DINKY<span className="text-gray-400">.</span>
             </h1>
 
             <p className="text-gray-400 mt-4 leading-7">
@@ -26,11 +26,11 @@ function Footer() {
             </h2>
 
             <div className="flex flex-col gap-3 text-gray-400">
-              <Link to="/" className="hover:text-yellow-400">Home</Link>
-              <Link to="/about" className="hover:text-yellow-400">About</Link>
-              <Link to="/skills" className="hover:text-yellow-400">Skills</Link>
-              <Link to="/projects" className="hover:text-yellow-400">Projects</Link>
-              <Link to="/contact" className="hover:text-yellow-400">Contact</Link>
+              <Link to="/home" className="hover:text-blue-500">Home</Link>
+              <Link to="/about" className="hover:text-blue-500">About</Link>
+              <Link to="/skills" className="hover:text-blue-500">Skills</Link>
+              <Link to="/projects" className="hover:text-blue-500">Projects</Link>
+              <Link to="/contact" className="hover:text-blue-500">Contact</Link>
             </div>
           </div>
 
@@ -45,7 +45,7 @@ function Footer() {
 
             <Link
               to="/contact"
-              className="inline-block mt-5 text-yellow-400 hover:underline"
+              className="inline-block mt-5 text-gray-400 hover:underline"
             >
               Get In Touch →
             </Link>
